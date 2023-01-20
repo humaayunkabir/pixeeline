@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <title>Blog - Pixeeline</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+</head>
+
+<body>
+    <main class="blog-page">
+        <section class="hed-banner">
+            <div class="bg">
+                <header class="">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid container">
+                            <a class="navbar-brand" href="index.html"><img src="./images/logo_pixeeline.png"
+                                    alt="" /></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mb-3 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about.html">About Us</a>
+                                    </li>
+                                    <li class="nav-item dropdown-main">
+                                        <a class="nav-link" href="service.html">Service <i
+                                                class="fa-solid fa-angle-down"></i></a>
+                                        <div class="dropdown-content">
+                                            <div class="dropdown-child-content">
+                                                <a class="nav-link" href="pricing.html">Pricing plan</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <div class="dropdown-two">
+                                        <button onclick="serviceFunction()" class="dropbtn-two">Services <i
+                                                class="fa-solid fa-angle-down"></i></button>
+                                        <div id="myDropdown-two" class="dropdown-content-two dropdown-content">
+                                            <div class="dropdown-child-content">
+                                                <a class="nav-link" href="service.html">Service</a>
+                                                <a class="nav-link" href="pricing.html">Pricing plan</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">Contact Us</a>
+                                    </li>
+                                    <li class="nav-item dropdown-main">
+                                        <a class="nav-link" href="#">Pages <i class="fa-solid fa-angle-down"></i></a>
+                                        <div class="dropdown-content">
+                                            <div class="dropdown-child-content">
+                                                <a class="nav-link" href="team.html">Team</a>
+                                                <a class="nav-link" href="faq.html">FAQ</a>
+                                                <a class="nav-link active" href="blog.html">Blog</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <div class="dropdown">
+                                        <button onclick="myFunction()" class="dropbtn">Pages <i
+                                                class="fa-solid fa-angle-down"></i></button>
+                                        <div id="myDropdown" class="dropdown-content">
+                                            <div class="dropdown-child-content">
+                                                <a class="nav-link" href="team.html">Team</a>
+                                                <a class="nav-link" href="faq.html">FAQ</a>
+                                                <a class="nav-link active" href="blog.html">Blog</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <li class="nav-item">
+                                        <a class="btn btn-bg-soft" href="contact.html">Get Started</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+                <section class="banner-section">
+                    <div class="container">
+                        <div class="row-d">
+                            <div class="banner-text-column heading-col-left">
+                                <h1 class="heading">Blog</h1>
+                            </div>
+                            <div class="banner-text-column heading-col-right">
+                                <h4 class="global-h4">
+                                    Discover what a graphic illustrator in branding & design really looks like with
+                                    expert insights.
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section class="blog-post-section">
+            <div class="container">
+                <div class="section-heading-container">
+                    <h2 class="heading text-center">Archives</h2>
+                </div>
+                <div class="row-d card-main">
+                    <div class="card">
+                        <a href="">
+                            <div class="post_thumbnail">
+                                <img class="card-img-top" src="./images/blog-post-1.jpg" alt="Card image cap">
+                            </div>
+                        </a>
+                        <div class="post_badge">
+                            <span>Case Study</span>
+                        </div>
+                        <div class="card-body">
+                            <a href="">
+                                <h4 class="card-title global-h4">Case Studies: Book Illustrations for Visual
+                                    Storytelling
+                                </h4>
+                            </a>
+                            <p class="card-text">Aliquet blandit magna ullamcorper mus morbi at ex sodales tempor
+                                vivamus platea. Senectus sollicitudin feugiat consectetuer fringilla erat ornare. Aptent
+                                fames consectetur venenatis maecenas magnis. Porta metus purus senectus sapien ac.</p>
+                        </div>
+                        <div class="post-date-comment row-d">
+                            <span>June 13, 2022</span><i class="fa-solid fa-circle"></i><span>No Comments</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="">
+                            <div class="post_thumbnail">
+                                <img class="card-img-top" src="./images/blog-post-2.jpg" alt="Card image cap">
+                            </div>
+                        </a>
+                        <div class="post_badge">
+                            <span>Illustrations</span>
+                        </div>
+                        <div class="card-body">
+                            <a href="">
+                                <h4 class="card-title global-h4">Mastering Lines: 20+ Elegant Line Art Illustrations
+                                </h4>
+                            </a>
+                            <p class="card-text">Aliquet blandit magna ullamcorper mus morbi at ex sodales tempor
+                                vivamus platea. Senectus sollicitudin feugiat consectetuer fringilla erat ornare. Aptent
+                                fames consectetur venenatis maecenas magnis. Porta metus purus senectus sapien ac.</p>
+                        </div>
+                        <div class="post-date-comment row-d">
+                            <span>June 13, 2022</span><i class="fa-solid fa-circle"></i><span>No Comments</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="">
+                            <div class="post_thumbnail">
+                                <img class="card-img-top" src="./images/shopping-bags.jpg" alt="Card image cap">
+                            </div>
+                        </a>
+                        <div class="post_badge">
+                            <span>Illustrations</span>
+                        </div>
+                        <div class="card-body">
+                            <a href="">
+                                <h4 class="card-title global-h4">Human Medley: 30+ Bright and Stylish People
+                                    Illustrations
+                                </h4>
+                            </a>
+                            <p class="card-text">Aliquet blandit magna ullamcorper mus morbi at ex sodales tempor
+                                vivamus platea. Senectus sollicitudin feugiat consectetuer fringilla erat ornare. Aptent
+                                fames consectetur venenatis maecenas magnis. Porta metus purus senectus sapien ac.</p>
+                        </div>
+                        <div class="post-date-comment row-d">
+                            <span>June 13, 2022</span><i class="fa-solid fa-circle"></i><span>No Comments</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="">
+                            <div class="post_thumbnail">
+                                <img class="card-img-top" src="./images/protfolio-product4.jpg" alt="Card image cap">
+                            </div>
+                        </a>
+                        <div class="post_badge">
+                            <span>UI/UX</span>
+                        </div>
+                        <div class="card-body">
+                            <a href="">
+                                <h4 class="card-title global-h4">
+                                    Real Bitcoin. Creating Website Illustrations
+                                </h4>
+                            </a>
+                            <p class="card-text">Aliquet blandit magna ullamcorper mus morbi at ex sodales tempor
+                                vivamus platea. Senectus sollicitudin feugiat consectetuer fringilla erat ornare. Aptent
+                                fames consectetur venenatis maecenas magnis. Porta metus purus senectus sapien ac.</p>
+                        </div>
+                        <div class="post-date-comment row-d">
+                            <span>June 13, 2022</span><i class="fa-solid fa-circle"></i><span>No Comments</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="">
+                            <div class="post_thumbnail">
+                                <img class="card-img-top" src="./images/protfolio-product2.jpg" alt="Card image cap">
+                            </div>
+                        </a>
+                        <div class="post_badge">
+                            <span>Illustrations</span>
+                        </div>
+                        <div class="card-body">
+                            <a href="">
+                                <h4 class="card-title global-h4">Art of Love: Romantic Illustrations on Love and
+                                    Affection
+                                </h4>
+                            </a>
+                            <p class="card-text">Aliquet blandit magna ullamcorper mus morbi at ex sodales tempor
+                                vivamus platea. Senectus sollicitudin feugiat consectetuer fringilla erat ornare. Aptent
+                                fames consectetur venenatis maecenas magnis. Porta metus purus senectus sapien ac.</p>
+                        </div>
+                        <div class="post-date-comment row-d">
+                            <span>June 13, 2022</span><i class="fa-solid fa-circle"></i><span>No Comments</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="">
+                            <div class="post_thumbnail">
+                                <img class="card-img-top" src="./images/protfolio-product1.jpg" alt="Card image cap">
+                            </div>
+                        </a>
+                        <div class="post_badge">
+                            <span>Case Study</span>
+                        </div>
+                        <div class="card-body">
+                            <a href="">
+                                <h4 class="card-title global-h4">Case Study: CUBE. Illustration Set for Video Production
+                                    Company
+                                </h4>
+                            </a>
+                            <p class="card-text">Aliquet blandit magna ullamcorper mus morbi at ex sodales tempor
+                                vivamus platea. Senectus sollicitudin feugiat consectetuer fringilla erat ornare. Aptent
+                                fames consectetur venenatis maecenas magnis. Porta metus purus senectus sapien ac.</p>
+                        </div>
+                        <div class="post-date-comment row-d">
+                            <span>June 13, 2022</span><i class="fa-solid fa-circle"></i><span>No Comments</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="newsletter-section">
+            <div class="bg">
+                <div class="container">
+                    <div class="section-heading-container">
+                        <h2 class="heading text-center">Newsletter</h2>
+                        <h4 class="global-h4">
+                            Sign up for our newsletter to get updated information,
+                            promotion, and insight.
+                        </h4>
+                        <div class="input-cont text-center">
+                            <input type="email" class="form-control" placeholder="Email" required />
+                            <button type="submit" class="btn-bg-soft">
+                                <i class="fa-regular fa-envelope me-1"></i>Signup
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="top-footer">
+                <div class="row-d">
+                    <div class="left-col">
+                        <div>
+                            <h2>Let's Talk<span>.</span></h2>
+                            <h4>Providing creative ideas for your business.</h4>
+                        </div>
+                    </div>
+                    <div class="right-col">
+                        <div>
+                            <h6>Get in touch</h6>
+                            <p>
+                                <a href="mailto: support@yourdomain.tld">support@yourdomain.tld</a>
+                            </p>
+                            <p>
+                                <a href="tel: +6221.2002.2012">+6221.2002.2012</a>
+                            </p>
+                        </div>
+                        <div class="social-icon">
+                            <ul>
+                                <li>
+                                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-brands fa-behance"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="last-footer">
+                <div class="row-d">
+                    <div class="left-col">
+                        <p>
+                            Copyright © 2023 Pixeeline, All rights reserved. Powered by
+                            HK.
+                        </p>
+                    </div>
+                    <div class="right-col">
+                        <ul>
+                            <li class="nav-item">
+                                <a class="nav-link" href="terms.html">
+                                    Terms & Use
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="legal-notice.html">
+                                    Legal Notice
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
